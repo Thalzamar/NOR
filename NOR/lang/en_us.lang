@@ -1,0 +1,91 @@
+fluid.dirt=Liquid Dirt
+fluid.biogas=BioGas
+fluid.methan=Methane
+fluid.hco_steam=Synthesis Gas
+fluid.tropsch=Fischer-Tropsch Reagent
+fluid.moc=Oil Coal Mix
+fluid.bergius=Bergius Reagent
+
+
+fluid.sour_oilgas=Sour Oil Gas
+fluid.sour_naphta=Sour Naphtha
+fluid.sour_kerosene=Sour Kerosene
+fluid.sour_dieseloil=Sour Diesel Oil
+fluid.sour_heavyoil=Sour Heavy Oil
+fluid.oil_waste=Oil Tar
+
+fluid.hycarb_gas=Hydrocarbon Gas
+fluid.sour_natgas=Sour Natural Gas
+fluid.natgas=Natural Gas
+fluid.sour_lpg=Sour LPG
+fluid.lpg=Liquid Petroleum Gas (LPG)
+fluid.pressurizedlpg=Pressurized LPG
+fluid.hot_lpgex=Hot LPG Exhaust
+fluid.sour_water=Sour Water
+fluid.treated_naphta=Hydrocracked Naphtha
+fluid.naphta_petr=Naphtha Gasoline
+
+fluid.kerosene=Kerosene
+fluid.pressurizedkerosene=Pressurized Kerosene
+fluid.hot_kerosenex=Hot Kerosene Exhaust
+fluid.sour_diesel=Sour Diesel
+fluid.dieseloil=Diesel Oil
+fluid.diesel=Diesel
+fluid.pressurizeddiesel=Pressurized Diesel
+fluid.hot_dieselex=Hot Diesel Exhaust
+fluid.heavyoil=Heavy Oil
+fluid.fcc_feed=Fluid Catalytic Cracker (FCC) Feedstock
+fluid.lightvacgas=Light Vacuum Gas Oil
+fluid.heavyvacgas=Heavy Vacuum Gas Oil
+fluid.vacuum_residuum=Vacuum Residuum
+
+fluid.cracked_vacgas=Hydrocracked Vacuum Gas
+fluid.cracked_gasoline=Hydrocracked Gasoline
+fluid.butane=i-Butane
+fluid.coker=Coker Mixed Oil 
+fluid.sodium_silicate=Sodium Silicate
+fluid.faujasite=Faujasite
+fluid.cracked_fluid=Cracked Oilfluid
+fluid.spent_faujasite=Coke Saturated Faujasite
+fluid.pentene=Pentene
+
+fluid.alkyl_petrol=Alkylate Gasoline
+fluid.alkyl_feed=Alkylate Feedstock
+fluid.pressurizedgasoline=Pressurized Gasoline
+fluid.fuel=Gasoline
+fluid.hot_gasolinex=Hot Gasoline Exhaust
+fluid.pressurizedfueloil=Pressurized Fuel Oil
+fluid.fuel_oil=Fuel Oil
+fluid.hot_fueloilex=Hot Fuel Oil Exhaust
+fluid.regen_faujasite=Burned Faujasite
+
+fluid.gasolinex=Radiating Gasoline Exhaust
+fluid.lpgex=Radiating LPG Exhaust
+fluid.dieselex=Radiating Diesel Exhaust
+fluid.fueloilex=Radiating Fuel Oil Exhaust
+fluid.kerosenex=Radiating Kerosene Exhaust
+fluid.cold_gasolinex=Cooled Gasoline Exhaust
+fluid.cold_lpgex=Cooled LPG Exhaust
+fluid.cold_dieselex=Cooled Diesel Exhaust
+fluid.cold_fueloilex=Cooled Fuel Oil Exhaust
+fluid.cold_kerosenex=Cooled Kerosene Exhaust
+fluid.fired_gasolinex=Fired Gasoline Exhaust
+fluid.fired_lpgex=Fired LPG Exhaust
+fluid.fired_dieselex=Fired Diesel Exhaust
+fluid.fired_fueloilex=Fired Fuel Oil Exhaust
+fluid.fired_kerosenex=Fired Kerosene Exhaust
+
+fluid.hydrogenisation=Methan Hydrogenisation Fluid
+fluid.bergius_oil=Synthetic Bergius Oil
+fluid.Fischer_oil=Synthetic Fischer-Tropsch Oil
+fluid.karrick=Synthetic Karrick Oil
+fluid.coker_tar=Petroleum Coke Tar
+fluid.black_liquor=Black Liquor
+fluid.poor_feed=Poor Hydrothermal Liquefaction Feedstock
+fluid.rich_bioblend=Rich Blend of Liquid Biomass
+fluid.rich_feed=Rich Hydrothermal Liquefaction Feedstock
+fluid.bio_oil=Advanced Bio-Oil
+
+"","poor_feed","rich_bioblend","rich_feed","bio_oil"
+
+item.contenttweaker.catalyst.name=Reaction Catalyst
