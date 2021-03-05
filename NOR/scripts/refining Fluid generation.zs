@@ -10,6 +10,11 @@ cat.maxStackSize = 64;
 cat.register();
 
 
+var crush_bit = VanillaFactory.createItem("crushed_bitumen");
+crush_bit.maxStackSize = 64;
+crush_bit.register();
+
+
 //Biogas
 if (!(loadedMods has "tconstruct")){
 var bioname = ["dirt"] as string[];
@@ -98,15 +103,16 @@ for i,name in liquidsref5Named{
 	zsFluid.register();
 }
 
-var bioNamed=["black_liquor","poor_feed","rich_bioblend","rich_feed","bio_oil"] as string[];	
-var biocolors= ["003D07","008910","003504","00700B","2C442E"] as string[];	
+var bioilNamed=["black_liquor","poor_feed","rich_bioblend","rich_feed","bio_oil","med_feed","med_blend","bitumen","cracked_bitumen","retort","solved_shale","shale"] as string[];	
+var bioilcolours= ["003D07","008910","003504","00700B","2C442E","5A915E","5A918C","141414","141414","141414","191919","191919"] as string[];	
 
-for i,name in bioNamed{
-	var zsFluid = VanillaFactory.createFluid(name, Color.fromHex(biocolors[i]));
+for i,name in bioilNamed{
+	var zsFluid = VanillaFactory.createFluid(name, Color.fromHex(bioilcolours[i]));
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(100);
 	zsFluid.setTemperature(400);
-	zsFluid.register();
+	zsFluid.register();	
+}
 
 var pressNamed=["pressurizedgasoline","pressurizedfueloil","pressurizedkerosene","pressurizeddiesel","pressurizedlpg"] as string[];	
 var presscolor= ["00FF21","00FFFF","7FC9FF","00FF21","A17FFF","3500C6"] as string[];	

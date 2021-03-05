@@ -81,11 +81,20 @@ fluid.Fischer_oil=Synthetic Fischer-Tropsch Oil
 fluid.karrick=Synthetic Karrick Oil
 fluid.coker_tar=Petroleum Coke Tar
 fluid.black_liquor=Black Liquor
-fluid.poor_feed=Poor Hydrothermal Liquefaction Feedstock
+fluid.med_blend=Blend of Liquid Biomass
 fluid.rich_bioblend=Rich Blend of Liquid Biomass
+fluid.poor_feed=Poor Hydrothermal Liquefaction Feedstock
+fluid.med_feed=Average Hydrothermal Liquefaction Feedstock
+fluid.rich_feed=Excellent Hydrothermal Liquefaction Feedstock
+
 fluid.rich_feed=Rich Hydrothermal Liquefaction Feedstock
 fluid.bio_oil=Advanced Bio-Oil
 
-"","poor_feed","rich_bioblend","rich_feed","bio_oil"
+fluid.bitumen=Liquidized Bitumen
+fluid.cracked_bitumen=Cracked Bitumen Liquid
+fluid.retort=Oil Shale Retort Feedstock
+fluid.solved_shale=Solved Oil Shale
+fluid.shale=Purified Oil Shale
 
 item.contenttweaker.catalyst.name=Reaction Catalyst
+item.contenttweaker.crushed_bitumen.name=Crushed Oil Shale
