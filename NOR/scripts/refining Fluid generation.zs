@@ -146,11 +146,11 @@ for i,name in turbineNamed{
 
 
 if (!(loadedMods has "pneumaticcraft")){
-var bioname = ["lpg","kerosene","fuel"] as string[];
-var biocolour = ["FF0000","7FC9FF","FFB27F"] as string[];
+var unpneumatic = ["lpg","kerosene","fuel"] as string[];
+var unpneumaticcolour = ["FF0000","7FC9FF","FFB27F"] as string[];
 
-for i,name in bioname{
-	var zsFluid = VanillaFactory.createFluid(name, Color.fromHex(biocolour[i]));
+for i,name in unpneumatic{
+	var zsFluid = VanillaFactory.createFluid(name, Color.fromHex(unpneumaticcolour[i]));
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(100);
 	zsFluid.setTemperature(400);
@@ -159,11 +159,11 @@ for i,name in bioname{
 }}
 
 if (!(loadedMods has "pneumaticcraft") && !(loadedMods has "immersivepetroleum")){
-var bioname = ["diesel"] as string[];
-var biocolour = ["00FF21"] as string[];
+var cooldiesel = ["diesel"] as string[];
+var dieselcolour = ["00FF21"] as string[];
 
-for i,name in bioname{
-	var zsFluid = VanillaFactory.createFluid(name, Color.fromHex(biocolour[i]));
+for i,name in cooldiesel{
+	var zsFluid = VanillaFactory.createFluid(name, Color.fromHex(dieselcolour[i]));
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(100);
 	zsFluid.setTemperature(400);
@@ -171,3 +171,18 @@ for i,name in bioname{
 
 }}
 
+if ((loadedMods has "immersivepetroleum")||(loadedMods has "pneumaticcraft")){
+var destill = ["catalyst_oil","cracked_oil"] as string[];
+var destillcolour = ["282828","282828"] as string[];
+
+for i,name in destill{
+	var zsFluid = VanillaFactory.createFluid(name, Color.fromHex(destillcolour[i]));
+	zsFluid.setDensity(4000);
+	zsFluid.setViscosity(100);
+	zsFluid.setTemperature(400);
+	zsFluid.register();
+
+
+
+}
+	}
