@@ -66,9 +66,9 @@ SaltMixer.addRecipe(<liquid:bergius>*500, <liquid:hydrogen>*1000, <liquid:bergiu
 
 //karrick
 
-Enricher.addRecipe(<ore:blockCoal>, <liquid:steam>*2000, <liquid:karrick>*7500, 240.0, 0.5, 0.0);
-Enricher.addRecipe(<ore:blockCoal>, <liquid:low_pressure_steam>*2000, <liquid:karrick>*8000, 240.0, 0.5, 0.0);
-Enricher.addRecipe(<ore:blockCoal>, <liquid:high_pressure_steam>*500, <liquid:karrick>*8000, 240.0, 0.5, 0.0);
+Enricher.addRecipe(<ore:blockCoal>, <liquid:steam>*2000, <liquid:karrick>*7500, 120.0, 0.1, 0.0);
+Enricher.addRecipe(<ore:blockCoal>, <liquid:low_pressure_steam>*2000, <liquid:karrick>*7500, 120.0, 0.1, 0.0);
+Enricher.addRecipe(<ore:blockCoal>, <liquid:high_pressure_steam>*500, <liquid:karrick>*7500, 120.0, 0.1, 0.0);
 
 
 
@@ -81,21 +81,22 @@ SaltMixer.addRecipe(<liquid:black_liquor>*500, <liquid:high_pressure_steam>*500,
 SaltMixer.addRecipe(<liquid:med_blend>*750, <liquid:high_pressure_steam>*500,<liquid:med_feed>*1000, 1.25 , 10.0);
 SaltMixer.addRecipe(<liquid:rich_bioblend>*500, <liquid:high_pressure_steam>*500,<liquid:rich_feed>*1000, 1.25 , 10.0);
 Enricher.addRecipe(<contenttweaker:catalyst>*4,<liquid:poor_feed>*1000,<liquid:bio_oil>*1000, 2.0 , 90.0);
-Enricher.addRecipe(<contenttweaker:catalyst>*2,<liquid:poor_feed>*750,<liquid:bio_oil>*1000, 2.0 , 90.0);
+Enricher.addRecipe(<contenttweaker:catalyst>*2,<liquid:med_feed>*750,<liquid:bio_oil>*1000, 2.0 , 90.0);
 Enricher.addRecipe(<contenttweaker:catalyst>,<liquid:rich_feed>*500,<liquid:bio_oil>*1000, 2.0 , 90.0);
 
 
 
 //Synthgas
+
+Enricher.addRecipe(<ore:dustWood>*8, <liquid:steam>*400, <liquid:hco_steam>*500, 0.5, 1.0, 0.0);
+Enricher.addRecipe(<ore:dustWood>*8, <liquid:low_pressure_steam>*400, <liquid:hco_steam>*500, 0.5, 1.0, 0.0);
+Enricher.addRecipe(<ore:dustWood>*8, <liquid:high_pressure_steam>*100, <liquid:hco_steam>*500, 0.5, 1.0, 0.0);
 Enricher.addRecipe(<ore:coal>, <liquid:steam>*400, <liquid:hco_steam>*1000, 0.5, 1.0, 0.0);
 Enricher.addRecipe(<ore:coal>, <liquid:low_pressure_steam>*400, <liquid:hco_steam>*1000, 0.5, 1.0, 0.0);
 Enricher.addRecipe(<ore:coal>, <liquid:high_pressure_steam>*100, <liquid:hco_steam>*1000, 0.5, 1.0, 0.0);
-Enricher.addRecipe(<ore:charcoal>, <liquid:steam>*400, <liquid:hco_steam>*1000, 0.5, 1.0, 0.0);
-Enricher.addRecipe(<ore:charcoal>, <liquid:low_pressure_steam>*400, <liquid:hco_steam>*1000, 0.5, 1.0, 0.0);
-Enricher.addRecipe(<ore:charcoal>, <liquid:high_pressure_steam>*100, <liquid:hco_steam>*1000, 0.5, 1.0, 0.0);
-Enricher.addRecipe(<ore:fuelCoke>, <liquid:steam>*400, <liquid:hco_steam>*1000, 0.5, 1.0, 0.0);
-Enricher.addRecipe(<ore:fuelCoke>, <liquid:low_pressure_steam>*400, <liquid:hco_steam>*1000, 0.5, 1.0, 0.0);
-Enricher.addRecipe(<ore:fuelCoke>, <liquid:high_pressure_steam>*100, <liquid:hco_steam>*1000, 0.5, 1.0, 0.0);
+Enricher.addRecipe(<ore:fuelCoke>, <liquid:steam>*400, <liquid:hco_steam>*2000, 0.5, 1.0, 0.0);
+Enricher.addRecipe(<ore:fuelCoke>, <liquid:low_pressure_steam>*400, <liquid:hco_steam>*2000, 0.5, 1.0, 0.0);
+Enricher.addRecipe(<ore:fuelCoke>, <liquid:high_pressure_steam>*100, <liquid:hco_steam>*2000, 0.5, 1.0, 0.0);
 Enricher.addRecipe(<ore:logWood>, <liquid:steam>*400, <liquid:hco_steam>*500, 0.5, 1.0, 0.0);
 Enricher.addRecipe(<ore:logWood>, <liquid:low_pressure_steam>*400, <liquid:hco_steam>*500, 0.5, 1.0, 0.0);
 Enricher.addRecipe(<ore:logWood>, <liquid:high_pressure_steam>*100, <liquid:hco_steam>*500, 0.5, 1.0, 0.0);
@@ -139,8 +140,8 @@ ChemicalReactor.addRecipe(<liquid:sour_natgas>*500, <liquid:sodium_hydroxide_sol
 ChemicalReactor.addRecipe(<liquid:sour_lpg>*500, <liquid:sodium_hydroxide_solution>*100, <liquid:lpg>*500,<liquid:sour_water>*100,0.25, 10.0);
 
 //Naphta Refining
-ChemicalReactor.addRecipe(<liquid:sour_naphta>*1000, <liquid:potassium_hydroxide_solution>*5000, <liquid:refined_oil>*1000,<liquid:sour_water>*150, 0.25, 10.0, 0.0);
-ChemicalReactor.addRecipe(<liquid:sour_naphta>*1000, <liquid:sodium_hydroxide_solution>*5000, <liquid:refined_oil>*1000,<liquid:sour_water>*150, 0.25, 10.0, 0.0);
+ChemicalReactor.addRecipe(<liquid:sour_naphta>*500, <liquid:potassium_hydroxide_solution>*100, <liquid:refined_oil>*1000,<liquid:sour_water>*100, 0.25, 10.0, 0.0);
+ChemicalReactor.addRecipe(<liquid:sour_naphta>*500, <liquid:sodium_hydroxide_solution>*100, <liquid:refined_oil>*1000,<liquid:sour_water>*100, 0.25, 10.0, 0.0);
 ChemicalReactor.addRecipe(<liquid:refined_oil>*1000, <liquid:hydrogen>*100, <liquid:treated_naphta>*1000,<liquid:hycarb_gas>*250, 0.25, 10.0, 0.0);
 ChemicalReactor.addRecipe(<liquid:treated_naphta>*1000, <liquid:hydrogen>*100, <liquid:naphta_petr>*1000,<liquid:hycarb_gas>*250, 0.25, 10.0, 0.0);
 
@@ -226,13 +227,13 @@ SaltMixer.addRecipe(<liquid:high_pressure_steam>*500, <liquid:diesel>*500, <liqu
 SaltMixer.addRecipe(<liquid:high_pressure_steam>*500, <liquid:fuel_oil>*500, <liquid:pressurizedfueloil>*11000, 0.2, 1.0, 0.0);
 
 //Turbines
-Turbine.addRecipe(<liquid:methan>, <liquid:carbon_dioxide>*4, 16.00, 8.00,4.0); 
-Turbine.addRecipe(<liquid:pressurizedlpg>, <liquid:hot_lpgex>*14, 60.00, 14.00,5.0); //30
-Turbine.addRecipe(<liquid:pressurizedkerosene>, <liquid:hot_kerosenex>*19, 125.00, 19.00,5.0); //60
-Turbine.addRecipe(<liquid:pressurizeddiesel>, <liquid:hot_dieselex>*18, 90.00, 18.00,5.0); //45
-Turbine.addRecipe(<liquid:pressurizedfueloil>, <liquid:hot_fueloilex>*16, 70.00, 16.00,5.0); //35
-Turbine.addRecipe(<liquid:pressurizedgasoline>, <liquid:hot_gasolinex>*12, 50.00, 12.00,5.0); //25
-Turbine.addRecipe(<liquid:hco_steam>, <liquid:carbon_monoxide>*8, 25.00, 10.00,3.0);
+Turbine.addRecipe(<liquid:methan>, <liquid:carbon_dioxide>*4, 16.00, 8.00); 
+Turbine.addRecipe(<liquid:pressurizedlpg>, <liquid:hot_lpgex>*14, 60.00, 14.00); //30
+Turbine.addRecipe(<liquid:pressurizedkerosene>, <liquid:hot_kerosenex>*19, 125.00, 19.00); //60
+Turbine.addRecipe(<liquid:pressurizeddiesel>, <liquid:hot_dieselex>*18, 90.00, 18.00); //45
+Turbine.addRecipe(<liquid:pressurizedfueloil>, <liquid:hot_fueloilex>*16, 70.00, 16.00); //35
+Turbine.addRecipe(<liquid:pressurizedgasoline>, <liquid:hot_gasolinex>*12, 50.00, 12.00); //25
+Turbine.addRecipe(<liquid:hco_steam>, <liquid:carbon_monoxide>*8, 25.00, 10.00);
 
 
 //ingame:
@@ -246,20 +247,25 @@ Turbine.addRecipe(<liquid:hco_steam>, <liquid:carbon_monoxide>*8, 25.00, 10.00,3
 //fuel oil 800C -> 200C (boiler heating) 600mb
 //jet engine 1100C -> 200C (boiler heating) 900mb
 
-
+//1/10th nerf
+//ChemicalReactor.addRecipe(<liquid:hot_gasolinex>*10, <liquid:water>*175, <liquid:gasolinex>*10,<liquid:high_pressure_steam>*700, 0.01, 0.0);
+//ChemicalReactor.addRecipe(<liquid:hot_lpgex>*10, <liquid:water>*225, <liquid:lpgex>*10,<liquid:high_pressure_steam>*900, 0.01, 0.0);
+//ChemicalReactor.addRecipe(<liquid:hot_dieselex>*10, <liquid:water>*263, <liquid:dieselex>*10,<liquid:high_pressure_steam>*1152, 0.01, 0.0);
+//ChemicalReactor.addRecipe(<liquid:hot_fueloilex>*10, <liquid:water>*300, <liquid:fueloilex>*10,<liquid:high_pressure_steam>*1200, 0.01, 0.0);
+//ChemicalReactor.addRecipe(<liquid:hot_kerosenex>*5, <liquid:water>*225, <liquid:kerosenex>*5,<liquid:high_pressure_steam>*1125, 0.01, 0.0);
 
 //HX
-ChemicalReactor.addRecipe(<liquid:hot_gasolinex>*10, <liquid:water>*1750, <liquid:gasolinex>*10,<liquid:high_pressure_steam>*7000, 0.01, 0.0);
-ChemicalReactor.addRecipe(<liquid:hot_lpgex>*10, <liquid:water>*2250, <liquid:lpgex>*10,<liquid:high_pressure_steam>*9000, 0.01, 0.0);
-ChemicalReactor.addRecipe(<liquid:hot_dieselex>*10, <liquid:water>*2630, <liquid:dieselex>*10,<liquid:high_pressure_steam>*11520, 0.01, 0.0);
-ChemicalReactor.addRecipe(<liquid:hot_fueloilex>*10, <liquid:water>*3000, <liquid:dieselex>*10,<liquid:high_pressure_steam>*12000, 0.01, 0.0);
-ChemicalReactor.addRecipe(<liquid:hot_kerosenex>*5, <liquid:water>*2250, <liquid:kerosenex>*5,<liquid:high_pressure_steam>*11250, 0.01, 0.0);
+ChemicalReactor.addRecipe(<liquid:hot_gasolinex>*1000, <liquid:water>*1750, <liquid:gasolinex>*1000,<liquid:high_pressure_steam>*7000, 0.00125, 0.0);
+ChemicalReactor.addRecipe(<liquid:hot_lpgex>*1000, <liquid:water>*2250, <liquid:lpgex>*1000,<liquid:high_pressure_steam>*9000, 0.00125, 0.0);
+ChemicalReactor.addRecipe(<liquid:hot_dieselex>*1000, <liquid:water>*2630, <liquid:dieselex>*1000,<liquid:high_pressure_steam>*11520, 0.00125, 0.0);
+ChemicalReactor.addRecipe(<liquid:hot_fueloilex>*1000, <liquid:water>*3000, <liquid:fueloilex>*1000,<liquid:high_pressure_steam>*12000, 0.00125, 0.0);
+ChemicalReactor.addRecipe(<liquid:hot_kerosenex>*500, <liquid:water>*2250, <liquid:kerosenex>*500,<liquid:high_pressure_steam>*11250, 0.00125, 0.0);
 
-ChemicalReactor.addRecipe(<liquid:gasolinex>*10, <liquid:water>*31, <liquid:cold_gasolinex>*10,<liquid:preheated_water>*31, 0.01, 0.0);
-ChemicalReactor.addRecipe(<liquid:lpgex>*10, <liquid:water>*47, <liquid:cold_lpgex>*10,<liquid:preheated_water>*47, 0.01, 0.0);
-ChemicalReactor.addRecipe(<liquid:dieselex>*10, <liquid:water>*55, <liquid:cold_dieselex>*10,<liquid:preheated_water>*55, 0.01, 0.0);
-ChemicalReactor.addRecipe(<liquid:fueloilex>*10, <liquid:water>*63, <liquid:cold_fueloilex>*10,<liquid:preheated_water>*63, 0.01, 0.0);
-ChemicalReactor.addRecipe(<liquid:kerosenex>*10, <liquid:water>*63, <liquid:cold_kerosenex>*10,<liquid:preheated_water>*63, 0.01, 0.0);
+ChemicalReactor.addRecipe(<liquid:gasolinex>*1000, <liquid:water>*31, <liquid:cold_gasolinex>*1000,<liquid:preheated_water>*31, 0.00125, 0.0);
+ChemicalReactor.addRecipe(<liquid:lpgex>*1000, <liquid:water>*47, <liquid:cold_lpgex>*1000,<liquid:preheated_water>*47, 0.00125, 0.0);
+ChemicalReactor.addRecipe(<liquid:dieselex>*1000, <liquid:water>*55, <liquid:cold_dieselex>*1000,<liquid:preheated_water>*55, 0.00125, 0.0);
+ChemicalReactor.addRecipe(<liquid:fueloilex>*1000, <liquid:water>*63, <liquid:cold_fueloilex>*1000,<liquid:preheated_water>*63, 0.00125, 0.0);
+ChemicalReactor.addRecipe(<liquid:kerosenex>*1000, <liquid:water>*63, <liquid:cold_kerosenex>*1000,<liquid:preheated_water>*63, 0.00125, 0.0);
 
 Centrifuge.addRecipe(<liquid:gasolinex>*1000, <liquid:steam>*100, <liquid:carbon_dioxide>*100, <liquid:nitrogen>*300, <liquid:carbon_monoxide>*500, <liquid:water>*100, <liquid:sulfur_dioxide>*100, 0.25, 10.0, 0.0); 
 Centrifuge.addRecipe(<liquid:lpgex>*1000, <liquid:steam>*150, <liquid:carbon_dioxide>*100, <liquid:nitrogen>*300, <liquid:carbon_monoxide>*500, <liquid:water>*100, <liquid:sulfur_dioxide>*100, 0.25, 10.0, 0.0); 
@@ -285,17 +291,17 @@ Centrifuge.addRecipe(<liquid:cold_kerosenex>*1000,  <liquid:carbon_dioxide>*500,
 //radiating 400,450,475,500,500
 // 600(300mb), 750 (375mb), 825(413mb),950 (475mb),1350(675mb) 
 
-SaltMixer.addRecipe(<liquid:hot_gasolinex>*100, <liquid:methan>*200, <liquid:fired_gasolinex>*100, 0.2, 1.0, 0.0);
-SaltMixer.addRecipe(<liquid:hot_lpgex>*100, <liquid:methan>*200, <liquid:fired_lpgex>*100, 0.2, 1.0, 0.0);
-SaltMixer.addRecipe(<liquid:hot_dieselex>*100, <liquid:methan>*200, <liquid:fired_dieselex>*100, 0.2, 1.0, 0.0);
-SaltMixer.addRecipe(<liquid:hot_fueloilex>*100, <liquid:methan>*200, <liquid:fired_fueloilex>*100, 0.2, 1.0, 0.0);
-SaltMixer.addRecipe(<liquid:hot_kerosenex>*100, <liquid:methan>*200, <liquid:fired_kerosenex>*100, 0.2, 1.0, 0.0);
+SaltMixer.addRecipe(<liquid:hot_gasolinex>*100, <liquid:methan>*100, <liquid:fired_gasolinex>*100, 0.1, 0.1, 0.0);
+SaltMixer.addRecipe(<liquid:hot_lpgex>*100, <liquid:methan>*100, <liquid:fired_lpgex>*100, 0.1, 0.1, 0.0);
+SaltMixer.addRecipe(<liquid:hot_dieselex>*100, <liquid:methan>*100, <liquid:fired_dieselex>*100, 0.1, 0.1, 0.0);
+SaltMixer.addRecipe(<liquid:hot_fueloilex>*100, <liquid:methan>*100, <liquid:fired_fueloilex>*100, 0.1, 0.1, 0.0);
+SaltMixer.addRecipe(<liquid:hot_kerosenex>*100, <liquid:methan>*100, <liquid:fired_kerosenex>*100, 0.1, 0.1, 0.0);
 
-ChemicalReactor.addRecipe(<liquid:fired_gasolinex>*10, <liquid:water>*3000, <liquid:gasolinex>*10,<liquid:high_pressure_steam>*12000, 0.01, 0.0);
-ChemicalReactor.addRecipe(<liquid:fired_lpgex>*5, <liquid:water>*1875, <liquid:lpgex>*5,<liquid:high_pressure_steam>*7500, 0.01, 0.0);
-ChemicalReactor.addRecipe(<liquid:fired_dieselex>*5, <liquid:water>*2065, <liquid:dieselex>*5,<liquid:high_pressure_steam>*8260, 0.01, 0.0);
-ChemicalReactor.addRecipe(<liquid:fired_fueloilex>*5, <liquid:water>*2375, <liquid:dieselex>*5,<liquid:high_pressure_steam>*9500, 0.01, 0.0);
-ChemicalReactor.addRecipe(<liquid:fired_kerosenex>*5, <liquid:water>*3375, <liquid:kerosenex>*5,<liquid:high_pressure_steam>*13500, 0.01, 0.0);
+ChemicalReactor.addRecipe(<liquid:fired_gasolinex>*1000, <liquid:water>*3000, <liquid:gasolinex>*1000,<liquid:high_pressure_steam>*12000, 0.00125, 0.0);
+ChemicalReactor.addRecipe(<liquid:fired_lpgex>*500, <liquid:water>*1875, <liquid:lpgex>*500,<liquid:high_pressure_steam>*7500, 0.00125, 0.0);
+ChemicalReactor.addRecipe(<liquid:fired_dieselex>*500, <liquid:water>*2065, <liquid:dieselex>*500,<liquid:high_pressure_steam>*8260, 0.00125, 0.0);
+ChemicalReactor.addRecipe(<liquid:fired_fueloilex>*500, <liquid:water>*2375, <liquid:fueloilex>*500,<liquid:high_pressure_steam>*9500, 0.00125, 0.0);
+ChemicalReactor.addRecipe(<liquid:fired_kerosenex>*500, <liquid:water>*3375, <liquid:kerosenex>*500,<liquid:high_pressure_steam>*13500, 0.00125, 0.0);
 
 //H2+co2/co+ruthenium -> CH4 
 SaltMixer.addRecipe(<liquid:carbon_dioxide>*100, <liquid:hydrogen>*200, <liquid:hydrogenisation>*100, 0.25, 10.0);
