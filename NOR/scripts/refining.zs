@@ -227,13 +227,13 @@ SaltMixer.addRecipe(<liquid:high_pressure_steam>*500, <liquid:diesel>*500, <liqu
 SaltMixer.addRecipe(<liquid:high_pressure_steam>*500, <liquid:fuel_oil>*500, <liquid:pressurizedfueloil>*11000, 0.2, 1.0, 0.0);
 
 //Turbines
-Turbine.addRecipe(<liquid:methan>, <liquid:carbon_dioxide>*4, 16.00, 8.00); 
-Turbine.addRecipe(<liquid:pressurizedlpg>, <liquid:hot_lpgex>*14, 60.00, 14.00); //30
-Turbine.addRecipe(<liquid:pressurizedkerosene>, <liquid:hot_kerosenex>*19, 125.00, 19.00); //60
-Turbine.addRecipe(<liquid:pressurizeddiesel>, <liquid:hot_dieselex>*18, 90.00, 18.00); //45
-Turbine.addRecipe(<liquid:pressurizedfueloil>, <liquid:hot_fueloilex>*16, 70.00, 16.00); //35
-Turbine.addRecipe(<liquid:pressurizedgasoline>, <liquid:hot_gasolinex>*12, 50.00, 12.00); //25
-Turbine.addRecipe(<liquid:hco_steam>, <liquid:carbon_monoxide>*8, 25.00, 10.00);
+Turbine.addRecipe(<liquid:methan>, <liquid:carbon_dioxide>*4, 16.00, 8.00,4.0); 
+Turbine.addRecipe(<liquid:pressurizedlpg>, <liquid:hot_lpgex>*14, 60.00, 14.00,5.0); //30
+Turbine.addRecipe(<liquid:pressurizedkerosene>, <liquid:hot_kerosenex>*19, 125.00, 19.00,5.0); //60
+Turbine.addRecipe(<liquid:pressurizeddiesel>, <liquid:hot_dieselex>*18, 90.00, 18.00,5.0); //45
+Turbine.addRecipe(<liquid:pressurizedfueloil>, <liquid:hot_fueloilex>*16, 70.00, 16.00,5.0); //35
+Turbine.addRecipe(<liquid:pressurizedgasoline>, <liquid:hot_gasolinex>*12, 50.00, 12.00,5.0); //25
+Turbine.addRecipe(<liquid:hco_steam>, <liquid:carbon_monoxide>*8, 25.00, 10.00,3.0);
 
 
 //ingame:
